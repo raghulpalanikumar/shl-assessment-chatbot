@@ -1,0 +1,37 @@
+:root {
+  --page: #f4f6f9;
+  --surface: #ffffff;
+  --text: #334155;
+  --heading: #0f172a;
+  --muted: #64748b;
+  --border: #e2e8f0;
+  --shl-primary: #0F1E3B;
+  --shl-accent: #00B2A9;
+  --shl-accent-hover: #008f87;
+  --focus: #00B2A9;
+  
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--text);
+  background: var(--page);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background-color: var(--page);
+}
+
+h1 {
+  color: var(--heading);
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+p {
+  line-height: 1.6;
+}
