@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import './App.css'
 
 // In dev, use same-origin + Vite proxy to backend (see vite.config.js). Override with VITE_API_URL if needed.
-const API_URL = import.meta.env.VITE_API_URL ?? (import.meta.env.DEV ? '' : 'http://localhost:8000')
+const API_URL = import.meta.env.VITE_API_URL ?? (import.meta.env.DEV ? '' : 'https://shl-assessment-chatbot-evw8.onrender.com')
 const MAX_MESSAGES = 8
 
 export default function App() {
